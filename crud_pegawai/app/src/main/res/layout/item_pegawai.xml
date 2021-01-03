@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/border">
+
+    <TextView
+        android:id="@+id/txvNamaPegawai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="[nama_pegawai]"
+        android:textSize="18sp"
+        android:textColor="#222"/>
+
+    <TextView
+        android:id="@+id/txvTanggalLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="[tanggal_lahir]"
+        android:textSize="15sp"
+        android:textColor="#555"/>
+
+    <TextView
+        android:id="@+id/txvDivisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="[divisi]"
+        android:textSize="15sp"
+        android:textColor="#555"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end">
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="end"
+            android:text="Edit"/>
+
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="end"
+            android:text="Hapus"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+Time : 21:55:50
+SQLSTATE[HY000] [1045] Access denied for user 'kunto'@'localhost' (using password: YES)
+
+Time : 18:56:21
+SQLSTATE[HY000] [1049] Unknown database 'db_pegawai'
+
+Time : 16:46:02
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'nama_pegawai' in 'where clause'
+Raw SQL : select * from tbl_pegawai  where nama_pegawai LIKE '%adi%'   LIMIT 0,10
